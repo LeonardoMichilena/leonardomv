@@ -1,12 +1,12 @@
 <header [class.headerDark]="darkMode">
 
-    <img *ngIf="!darkMode" class="logo" src="assets/img/logo-white.png" routerLink="" alt="LMV">
-    <img *ngIf="darkMode" class="logo" src="assets/img/logo-black.png" routerLink="" alt="LMV">
+    <img *ngIf="!darkMode" class="logo" src="/assets/img/logo-white.png" routerLink="" alt="LMV">
+    <img *ngIf="darkMode" class="logo" src="/assets/img/logo-black.png" routerLink="" alt="LMV">
 
     <div class="menu">
-        <a routerLink="">Home</a>
-        <a routerLink="cv-section">Curriculum</a>
-        <a routerLink="portfolio">Portfolio</a>
-        <a routerLink="contact">Contact</a>
+        <div id="home"><a routerLink="">Home</a></div>
+        <div id="curriculum"><a routerLink="cv-section">Curriculum</a></div>
+        <div id="portfolio"><a routerLink="portfolio">Portfolio</a></div>
+        <div id="contact"><a routerLink="contact">Contact</a></div>
     </div>
 </header>

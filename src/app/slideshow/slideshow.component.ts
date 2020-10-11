@@ -8,12 +8,12 @@ import { Router } from '@angular/router';
 })
 export class SlideshowComponent implements OnInit {
 
-  images = ['coding.jpg','ibarra.jpg','barcelona.jpg','london.jpg','berlin.jpg','limitless.jpg','limitless.jpg'];
+  images = ['coding.jpg','ibarra.jpg','barcelona.jpg','london.jpg','berlin.jpg','limitless.jpg'];
   headlines = ["I am Leonardo Michilena Valencia, welcome to my website!",
   "I was born in Ibarra, a small and beautiful city in Ecuador",
   "As a child I moved to Spain with my mother, to live in the amazing Barcelona","In 2012, I spent a year abroad learning English in London",
-  "Finally some years later in 2015, I moved to Germany, to learn a new language and discover Berlin!",
-  "If you want to know more about Leonardo and his projects just click anywhere!"];
+  "Finally in 2015, I moved to Germany, to learn a new language and discover Berlin!",
+  "If you want to know more about me just click anywhere!"];
 
   img;
   imageCache = [];

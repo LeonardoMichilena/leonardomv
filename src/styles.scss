@@ -5,9 +5,12 @@
 //Body configurations
 body {
     position: absolute;
-    margin: 0 0;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    width: auto !important;
+    min-width: 100px;
+    height: auto !important;
+    min-height: 550px;
     font-family: 'Sansita Swashed';
+    overflow: hidden;
 }
 

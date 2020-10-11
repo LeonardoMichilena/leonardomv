@@ -6,9 +6,10 @@ footer {
     bottom: 0;
     width: 100vw;
     height: 5%;
+    padding-bottom: 1.5em;
     a {
         font-size: 1em;
-        color: white;
+        color: darkgrey;
         text-decoration: none;
         margin-left: 32px;
         font-weight: 500;
@@ -19,8 +20,8 @@ footer {
     }
 }
 .footerDark {
-    background-color:white;
-    box-shadow: 0px 2px 2px 0px rgb(0,0,0);
+    background-color: white;
+
     a {
         color: black;
         &:hover {
