@@ -1,20 +1,17 @@
 .cv-section {
     display: flex;
-    background-color: none;
-    position: absolute;
-    left: 0;
-    width: 100vw;
-    height: 80%;
+    height: 80vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 3em;
 
 
     img {
         &:hover {
             transform: scale(1.2);
         }
-        width: 12em;
-        height: 12em;
+        width: 14em;
+        height: 14em;
         border-radius: 100%;
         animation: rightToLeftAni 2s ease; 
         cursor: pointer;       

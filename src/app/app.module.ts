@@ -13,7 +13,6 @@ import { ContactComponent } from './contact/contact.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { CvSectionComponent } from './cv-section/cv-section.component';
-import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
