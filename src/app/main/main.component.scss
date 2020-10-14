@@ -1,8 +1,8 @@
 .main {
     position: relative;
-    top:-20vh;
+    top:-15vh;
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
 }
 
 .main-container-other {
@@ -11,4 +11,6 @@
     width: 100vw;
     overflow: hidden;
     overflow-y: scroll;
+    animation: boingAni 2s ease;
+    padding-bottom: 5%;
 }
