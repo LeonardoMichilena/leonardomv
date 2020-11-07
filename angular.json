@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "leonardomv"
+    }
+  },
+  "defaultProject": "leonardomv",
+  "cli": {
+    "analytics": "cf53cd67-c705-49a0-85b8-18abc26c5fe2"
+  }
 }
