@@ -1,88 +1,15 @@
 <div class="portfolio-main-container">
     <div class="portfolio-intro">
-        <h2>Welcome to my app world!</h2>
-        <div class="portfolio-intro-text">
-            <p>I recommend to check them in the given order, so you can see how my programming skills developed along the time</p>    
-       </div>
+        <h2>Welcome to my App world!</h2>
     </div>
-    <div class="portfolio-list">
-        <div class="project-container">
-            <a target="_blank" href="http://www.leonardo-michilena.developerakademie.com/QuizApp">
-                <img class="imgApp" src="./assets/img/quizApp.png">
-            </a>
-            <div class="app-title">
-                <p>Quiz App</p>
-            </div>
-            <div class="app-description">
-                <p>HTML first project</p>
-            </div>
-        </div>
-        <div class="project-container">
-            <a target="_blank" href="http://www.leonardo-michilena.developerakademie.com/tictactoe">
-                <img class="imgApp" src="./assets/img/tictactoe.png">
-            </a>
-            <div class="app-title">
-                <p>Tic Tac Toe</p>
-            </div>
-            <div class="app-description">
-                <p>Popular game made with javascript</p>
-            </div>
-
-        </div>
-        <div class="project-container">
-            <a target="_blank" href="http://www.leonardo-michilena.developerakademie.com/task-management">
-                <img class="imgApp" src="./assets/img/join.png">
-            </a>
-            <div class="app-title">
-                <p>Join</p>
-            </div>
-            <div class="app-description">
-                <p>Task Management App in Javascript</p>
-            </div>
-
-        </div>
-        <div class="project-container">
-            <a target="_blank" href="http://www.leonardo-michilena.developerakademie.com/el-pollo-loco">
-                <img class="imgApp" src="./assets/img/elPolloLoco.png">
-            </a>
-            <div class="app-title">
-                <p>El Pollo Loco</p>
-            </div>
-            <div class="app-description">
-                <p>Javascript Jump and Run Game</p>
-            </div>
-        </div>
-        <div class="project-container">
-            <a href="#"><img class="imgApp" src="./assets/img/logo-white-simple.png">
-            </a>
-            <div class="app-title">
-                <p>My personal website</p>
-            </div>
-            <div class="app-description">
-                <p>An Angular based website</p>
-            </div>
-        </div>
-        <div class="project-container">
-            <a href="https://ringoffire-86076.web.app">
-                <img class="imgApp" src="/assets/img/ringOfFire.png">
-            </a>
-            <div class="app-title">
-                <p>Ring of Fire</p>
-            </div>
-            <div class="app-description">
-                <p>An Angular based cards game</p>
-            </div>
-        </div>
-        <div class="project-container">
-            <a href="">
-                <img class="imgApp" src="/assets/img/coming-soon.png">
-            </a>
-            <div class="app-title">
-                <p>Next App</p>
-            </div>
-            <div class="app-description">
-                <p>An Angular based app</p>
-            </div>
-        </div>
+    <div class="portfolio-list-container">
+        <app-portfolio-card imgLink="/assets/img/quizApp.png" title="QuizApp" description="First HTML & CSS Quiz" appLink="http://www.leonardo-michilena.developerakademie.com/QuizApp"></app-portfolio-card>
+        <app-portfolio-card imgLink="/assets/img/tictactoe.png" title="Tic Tac Toe" description="HTML & Javascript game" appLink="http://www.leonardo-michilena.developerakademie.com/tictactoe"></app-portfolio-card>
+        <app-portfolio-card imgLink="/assets/img/join.png" title="Join" description="Task Management Javascript App" appLink="http://www.leonardo-michilena.developerakademie.com/task-management"></app-portfolio-card>
+        <app-portfolio-card imgLink="/assets/img/elPolloLoco.png" title="El Pollo Loco" description="Jump 'n Run Javascript Game" appLink="http://www.leonardo-michilena.developerakademie.com/el-pollo-loco"></app-portfolio-card>
+        <app-portfolio-card imgLink="/assets/img/logo-white-simple.png" title="Personal Website" description="Angular Based SAP" appLink="http://www.leonardomv.com"></app-portfolio-card>
+        <app-portfolio-card imgLink="/assets/img/ringOfFire.png" title="Ring of Fire" description="Angular drinking card game" appLink="https://ringoffire-86076.web.app"></app-portfolio-card>
+        <app-portfolio-card imgLink="/assets/img/coming-soon.png" title="Next App" description="Coming Soon" appLink="#"></app-portfolio-card>
+    
     </div>
 </div>

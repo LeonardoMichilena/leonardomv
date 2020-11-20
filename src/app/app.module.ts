@@ -15,6 +15,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { CvSectionComponent } from './cv-section/cv-section.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { CvCardComponent } from './cv-card/cv-card.component';
+import { PortfolioCardComponent } from './portfolio-card/portfolio-card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CvCardComponent } from './cv-card/cv-card.component';
     ImprintComponent,
     CvSectionComponent,
     PersonalInfoComponent,
-    CvCardComponent
+    CvCardComponent,
+    PortfolioCardComponent
   ],
   imports: [
     BrowserModule,

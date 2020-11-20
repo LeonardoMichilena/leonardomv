@@ -1,0 +1,60 @@
+.portfolio-card-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.57);
+
+
+    img {
+        display: flex;
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    
+    .text-container {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: rgba(1,1,1,0.8);
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        transition: 2s;
+        color: white;
+        padding: 10px;
+       
+        p {
+            text-align: center;
+        }
+    }
+    .text-container:hover {
+            background-color: rgba(1,1,1,0); 
+            color: rgba(1,1,1,0);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes transparentAni {
+    0% {
+        background-color: rgba(1,1,1,0.8);
+    }
+    100% {
+        background-color: rgba(1,1,1,0);
+    }
+}

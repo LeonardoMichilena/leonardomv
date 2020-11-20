@@ -5,7 +5,6 @@ footer {
     align-items: center;
     bottom: 0;
     width: 100vw;
-    height: 5%;
     a {
         font-size: 1em;
         color: darkgrey;
@@ -19,12 +18,10 @@ footer {
     }
 }
 .footerDark {
-    background-color: white;
 
     a {
         color: black;
         &:hover {
-        color: rgb(0,0,0,0.8);
         cursor: pointer;
         }
     }

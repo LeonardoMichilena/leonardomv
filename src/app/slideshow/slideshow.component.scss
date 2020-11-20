@@ -8,7 +8,7 @@
 img {   
         object-fit: cover;
         width: 100vw;
-        height: 110vh;
+        height: 100vh;
         animation: zoomIn 8s ease;
         animation-iteration-count: 5;
     }
@@ -18,7 +18,7 @@ img {
         transform: scale(1.5);
     }
     50% {
-        transform: scale(1);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1.5);
@@ -27,7 +27,6 @@ img {
 }
 
 .slideshow-overlay {
-    background-color: rgba(0,0,0,0.4);
     position: absolute;
     height: 100vh;
     top: 0;
@@ -55,11 +54,6 @@ img {
     0%{
         opacity: 0;
         transform: translateY(200px);
-    }
-
-    50% { 
-        opacity: 1;
-        transform: translateY(0);
     }
     100% { 
         opacity: 0;
