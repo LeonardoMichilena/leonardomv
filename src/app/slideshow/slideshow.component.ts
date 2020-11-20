@@ -10,10 +10,10 @@ export class SlideshowComponent implements OnInit {
 
   images = ['coding.jpg','ibarra.jpg','barcelona.jpg','berlin.jpg','limitless.jpg'];
   headlines = ["Welcome to Leonardo Michilena Valencia's website!",
-  "Born in Ibarra, Ecuador",
-  "Grow up in Barcelona, Spain",
-  "Exploring Berlin since 2015",
-  "If you want to know more about me just click here!"];
+  "Born in Ibarra, Ecuador...",
+  "...grew up in Barcelona, Spain...",
+  "...and exploring Berlin since 2015",
+  "If you want to know more about Leonardo just click here!"];
 
   img;
   imageCache = [];
