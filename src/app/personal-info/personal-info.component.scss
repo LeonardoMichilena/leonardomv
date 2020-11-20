@@ -1,0 +1,53 @@
+.personal-info-container {
+    display: flex;
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    justify-content: space-around;
+    .personal-info-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-text-container {
+        display: flex;
+        
+    }
+  
+    .personal-info-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            margin: 2px;
+            border-radius: 15px;
+            object-fit: cover;
+            object-position: top;
+            max-width: 20vw;
+            min-width: 15vw;
+            max-height: 20vh;
+            min-height: 15vh;
+            box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.57);
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    font-size: 20px;
+}
+
+.personal-info-pdf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        border: 2px red solid;
+        padding: 2px;
+
+    }
+}

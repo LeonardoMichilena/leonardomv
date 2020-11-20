@@ -13,6 +13,8 @@ import { ContactComponent } from './contact/contact.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { CvSectionComponent } from './cv-section/cv-section.component';
+import { PersonalInfoComponent } from './personal-info/personal-info.component';
+import { CvCardComponent } from './cv-card/cv-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CvSectionComponent } from './cv-section/cv-section.component';
     ContactComponent,
     DataProtectionComponent,
     ImprintComponent,
-    CvSectionComponent
+    CvSectionComponent,
+    PersonalInfoComponent,
+    CvCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+.cv-card-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.57);
+
+
+    img {
+        display: flex;
+        padding-top: 20px;
+        object-fit: contain;
+        width: 80%;
+        height: 80%;
+    }
+    
+    h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -8,16 +8,17 @@ import { Router } from '@angular/router';
 })
 export class SlideshowComponent implements OnInit {
 
-  images = ['coding.jpg','ibarra.jpg','barcelona.jpg','london.jpg','berlin.jpg','limitless.jpg'];
+  images = ['coding.jpg','ibarra.jpg','barcelona.jpg','berlin.jpg','limitless.jpg'];
   headlines = ["Welcome to Leonardo Michilena Valencia's website!",
-  "I was born in Ibarra, a small and beautiful city in Ecuador",
-  "at the age of 6 years, I moved to Spain with my mother","In 2012, I spent a year abroad learning English in London",
-  "Finally in 2015, I moved to Germany, to learn a new language and discover Berlin!",
-  "If you want to know more about me just click anywhere!"];
+  "Born in Ibarra, Ecuador",
+  "Grow up in Barcelona, Spain",
+  "Exploring Berlin since 2015",
+  "If you want to know more about me just click here!"];
 
   img;
   imageCache = [];
   currentImage = 0;
+  endSlide = false;
  
   constructor(public router: Router) {}
   
@@ -38,8 +39,12 @@ export class SlideshowComponent implements OnInit {
   
 
   }
-nextPage(){
-  console.log("next works");
+nextSlide(){
+  
+  if(this.currentImage == this.images.length -1) {
+    console.log(this.router.getCurrentNavigation);
+    this.router.navigateByUrl("/curriculum");
+  }
   
 }
     /* window.onscroll = () => {

@@ -1,4 +1,30 @@
 <div class="cv-section">
-    <h2>Here you can have a look at my Curriculum:</h2>
-    <a routerLink="/curriculum"> <img src="./assets/img/curriculum-icon.png" alt="Curriculum"></a>
+    <!-- <h2>Here you can have a look at my Curriculum:</h2>
+    <a routerLink="/curriculum"> <img src="./assets/img/curriculum-icon.png" alt="Curriculum"></a> -->
+    <app-personal-info></app-personal-info>
+    <div class="card-section-container">
+        <app-cv-card imgLink="/assets/img/education.png" title="Education"></app-cv-card>
+        <app-cv-card imgLink="/assets/img/work.png" title="Work"></app-cv-card>
+        <app-cv-card imgLink="/assets/img/internship.png" title="Internship"></app-cv-card>
+    </div>
+    <div class="languages-section-container" id="languages-section-container">
+        <div class="meter spanish">
+            <span style="width: 100%">Spanish</span>
+        </div>
+    </div>
+    <div class="languages-section-container" id="languages-section-container">
+        <div class="meter catalan">
+            <span style="width: 100%">Catalan</span>
+        </div>
+    </div>
+    <div class="languages-section-container" id="languages-section-container">
+        <div class="meter english">
+            <span style="width: 95%">English</span>
+        </div>
+    </div>
+    <div class="languages-section-container" id="languages-section-container">
+        <div class="meter german">
+            <span style="width: 80%">German</span>
+        </div>
+    </div>
 </div>
