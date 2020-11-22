@@ -1,16 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 //Body configurations
 body {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    margin: 0;
-    width: auto !important;
-    min-width: 100px;
-    height: auto !important;
+    width: 100vw;
+    min-width: 370px;
     min-height: 550px;
     font-family: 'Sansita Swashed';
-    overflow: hidden;
 }
 

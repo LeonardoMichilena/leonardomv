@@ -44,14 +44,13 @@
         border-left: solid skyblue 5px;
         padding: 20px;
         cursor: pointer;
-
-
+        transition: 10s ease;
     }
 }
 
 .fadeIn {
     animation: fadeInAnimation 8s ease;
-    animation-iteration-count: 5;
+    animation-iteration-count: 4;
 }
 
 @keyframes fadeInAnimation {

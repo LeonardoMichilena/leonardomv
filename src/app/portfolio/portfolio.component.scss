@@ -1,22 +1,19 @@
 
 .portfolio-main-container {
     display: flex;
+    position: relative;
     flex-direction: column;
-    width: 90%;
     margin: auto;
-    justify-content: center;
     align-items: center;
     color: black;
 }
 
 .portfolio-list-container{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
-    
-    
 }
 
 

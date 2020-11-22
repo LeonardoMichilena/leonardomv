@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    top: 100px;
     width: 100vw;
-    height: 100vh;
-    overflow: scroll;
+}
+@media (max-width: 600px){
+   .main{
+    top: 10px;
+   } 
 }
